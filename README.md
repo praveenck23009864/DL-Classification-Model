@@ -30,9 +30,9 @@ Display the test accuracy, confusion matrix, and classification report.
 
 ## PROGRAM
 
-### Name: GANESH R
+### Name: praveen ck
 
-### Register Number: 212222240029
+### Register Number: 212222243003
 
 ```python
 import torch
@@ -126,8 +126,8 @@ accuracy = accuracy_score(actuals, predictions)
 conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=iris.target_names)
 
-print("\nName:  Ganesh R")
-print("Register No: 212222240029")
+print("\nName:  praveen ck")
+print("Register No: 212222243003")
 print(f'Test Accuracy: {accuracy:.2f}%\n')
 print("Classification Report:\n", class_report)
 print("\nConfusion Matrix:\n", conf_matrix)
